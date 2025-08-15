@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrelas no Céu</title>
+    <style>
+        body {
+            background: rgb(0, 0, 75);
+            color: yellow;
+        }
+        .square {
+            width: 5px;
+            height: 5px;
+            margin: 5px;
+            background-color: aquamarine;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html">Quadrados</a>
+    <a href="index2.html">Estrelas</a>
+    <a href="index3.html">Jogo</a>
+    <h1>Estrelas no Céu</h1>
+    <div id="container"></div>
+    <script>
+        const container = document.getElementById('container');
+
+        for(let i = 0; i < 35; i++) {
+            const square = document.createElement('div');
+            square.classList.add('square');
+            square.style.backgroundColor = "yellow";
+            square.style.position = "absolute"
+            square.style.left = `${Math.random()*window.innerWidth}px`;
+            square.style.top = `${Math.random()*window.innerHeight}px`;
+            container.appendChild(square);
+        }
+    </script>
+
+</body>
+</html>
