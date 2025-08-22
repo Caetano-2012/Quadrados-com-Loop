@@ -17,7 +17,7 @@ function createObstacles(quantity){
     }
 }
     function checkVictory() {
-        const remainingObstacles = document.querryselectorAll('.obstacle');
+        const remainingObstacles = document.querySelectorAll('.obstacle');
         if (remainingObstacles.length === 0) {
             message.textContent = 'Parabéns! Você destruiu todos os obstáculos!';
         }
