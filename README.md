@@ -1,6 +1,7 @@
 
-# Quadrados com Loops
-Protótipo de criação de quadrados idênticos, usando o loop FOR. Criado para fins educacionais em cima do javascript (loops).
+# Atividades com loops
+Protótipo de criação de quadrados idênticos, céu estrelado e jogo de destruir obstáculos usando o loop FOR. Criado para fins educacionais em cima do javascript (loops).
+
 
 
 
